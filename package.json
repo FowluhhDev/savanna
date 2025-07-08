@@ -1,8 +1,8 @@
 {
-  "name": "savanna",
+  "name": "savanna-core",
   "version": "0.0.1",
   "description": "Core for web-based operating systems.",
-  "author": "FowluhhDev",
+  "author": "fowluhh",
   "license": "MIT",
   "dependencies": {
     "tsup": "^8.5.0",
