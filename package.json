@@ -1,11 +1,11 @@
 {
   "name": "savanna-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Core for web-based operating systems.",
   "author": "fowluhh",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/FowluhhDev/savanna"
+    "url": "git+https://github.com/FowluhhDev/savanna.git"
   },
   "dependencies": {
     "tsup": "^8.5.0",
