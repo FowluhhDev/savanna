@@ -10,6 +10,11 @@
   },
   "scripts": {
     "build": "npx tsup",
-    "test": "npm run build && npx serve"
-  }
+    "test": "npm run build && npx serve",
+    "publish": "npm run build && npm publish"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ]
 }
