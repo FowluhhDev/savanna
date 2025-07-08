@@ -1,7 +1,8 @@
 import { ProcessListType, attachProcessList, getProcessFromID, getProcessFromName } from "./types/processList";
-import { Process, NewProcessParams, createProcess, makeProcess } from "./types/process";
+import { Process, NewProcessParams, createProcess, makeProcess, State } from "./types/process";
 import { initSavanna } from "./core/init";
 import { startLoop } from "./core/loop";
+import { setState } from "./utils/setState";
 
 declare global {
   interface Window {
@@ -14,6 +15,7 @@ export {
     ProcessListType,
     Process,
     NewProcessParams,
+    State,
 
     // Functions
     attachProcessList,
@@ -23,4 +25,5 @@ export {
     makeProcess,
     startLoop,
     initSavanna,
+    setState,
 }

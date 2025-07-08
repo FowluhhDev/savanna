@@ -1,3 +1,5 @@
+type State = "created" | "running" | "waiting" | "stopped";
+
 /**
  * The process type
  * @since v0.0.1
@@ -5,7 +7,7 @@
 type Process = {
     id: number;
     name: string;
-    state: "created" | "running" | "stopped";
+    state: State;
     createCode: () => {};
     runningCode: () => {};
     stoppedCode: () => {};
@@ -65,6 +67,7 @@ function makeProcess(params: NewProcessParams): Process {
 export {
     Process,
     NewProcessParams,
+    State,
 
     createProcess,
     makeProcess,
