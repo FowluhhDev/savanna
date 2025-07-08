@@ -1,0 +1,14 @@
+{
+  "name": "savanna",
+  "version": "0.0.1",
+  "description": "Core for web-based operating systems.",
+  "author": "FowluhhDev",
+  "license": "MIT",
+  "dependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npx tsup"
+  }
+}
